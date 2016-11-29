@@ -1,0 +1,243 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+div#app {
+    height: 100%;
+    width: 100%;
+}
+
+div#main-landing {
+    height: 100%;
+    width: 100%;
+}
+
+div#dashboard {
+    height: 100%;
+    width: 100%;
+}
+
+div#sign-in-background {
+    height: 100%;
+    width: 100%;
+    background-image: url("../img/city-bg-1440p-min.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+div#signup-box {
+    width: 280px;
+    height: 355px;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+
+div#login-box {
+    width: 280px;
+    height: 270px;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+
+input#login-username,
+input#login-password {
+    width: 100%;
+    margin: 0 auto;
+}
+
+input#login-submit,
+input#signup-submit {
+    width: 73%;
+    float: left;
+}
+
+a#login-signup,
+a#signup-login {
+    width: 23%;
+    float: right;
+}
+
+div#friends {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card {
+    cursor: pointer;
+}
+
+.columns.friends {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 84%;
+}
+
+div#profile-user-name {
+    position: relative;
+    float: left;
+    margin-left: 10px;
+}
+
+
+div#profile-user-avatar {
+    position: relative;
+    float: left;
+    margin-left: 25%;
+}
+
+div#submit-message {
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+div.profile-messages {
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+div#home {
+    height: 100%;
+}
+
+div#chat-container {
+    width: 60%;
+    height: 80vh;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    min-width: 780px;
+    min-height: 590px;
+}
+
+div#chat-container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+div#chat-list {
+    width: 100%;
+    height: 89.5%;
+    position: relative;
+}
+
+div#start-chat {
+    width: 100%;
+    margin-bottom: 18px;
+    position: relative;
+}
+
+div#start-chat-button {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.modal-friend {
+    cursor: pointer;
+}
+
+span#chat-icon {
+    margin-right: 14px;
+}
+
+div#left-chat-area {
+    float: left;
+    position: relative;
+    width: 22%;
+}
+
+div#active-chat {
+    float: right;
+    position: relative;
+    height: 100%;
+    width: 76.5%;
+    margin-left: 1.5%;
+}
+
+div#active-chat-window {
+    height: 80%;
+    width: 100%;
+}
+
+.messages {
+    overflow: scroll;
+    height: 90%;
+}
+
+div#left-chat-area {
+    height: 100%;
+    min-width: 160px;
+}
+
+.chat-panel {
+    height: 100%;
+}
+
+.chat-list-names {
+    height: 90%;
+    overflow:scroll;
+}
+
+.chat-name {
+    display:block;
+}
+
+.chat-panel-heading {
+    height: 47px;
+}
+
+.chat-message-textarea {
+    resize: none;
+    height: 100%;
+    width: 100%;
+    min-height: 20px;
+    min-width: 20px;
+}
+
+div#active-chat-submit {
+    height: 16%;
+    width: 100%;
+}
+
+form#active-chat-form {
+    height: 100%;
+}
+
+.active-chat {
+    border-width: 1px;
+    color: #00d1b2;
+    border: 1px solid #00d1b2;
+}
+
+.chat-name-panel {
+    height: 44px;
+}
+
+.add-friend-button, #request-pending {
+    margin-left: 25%;
+    margin-top: 5px;
+    max-width: 78px;
+}
+
+.chat-message {
+    margin-bottom: 10px;
+}
+
+.member-avatar {
+    height: 24px !important;
+    line-height: 0px !important;
+    width: 24px !important;
+}
+
+.modal-checkbox {
+    margin-right: 8px;
+}
