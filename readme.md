@@ -1,20 +1,20 @@
-##<center>Socialite</center>
+# Socialite
 <center>Ludwig Bäcklund (ludli839) & Lukas Vikström (lukvi423)</center>
 <center> Linköpings universitet</center>
-<center> TDP019 - Projekt: Datorspråk </center>
-####Prereq
+<center> TDP013 - Webbprogrammering och interaktivitet </center>
 
- Run command:
- "npm install"
- <br/>
-####server starting:
-Requires 3 terminals each for the different commands
-</br>
+### Prerequisites
 
-"npm run watch" 
-<br/>
-"npm run dev"
-<br/>
-"elasticsearch-2.4.1/bin/./elasticsearch"
+ Run command
+ `npm install` in root folder
+
+## Starting the server
+Requires 3 terminals, one for each of the following commands
+
+`npm run watch` 
+
+`npm run dev`
+
+`elasticsearch-2.4.1/bin/./elasticsearch`
 
  
